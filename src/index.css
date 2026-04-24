@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&subset=cyrillic,cyrillic-ext,latin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&subset=cyrillic,cyrillic-ext,latin&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,46 +6,46 @@
 
 @layer base {
   :root {
-    /* VA Landing Page color palette - purple accents */
+    /* Sweet Confectionery color palette - warm rose & caramel */
     --background: 0 0% 100%;
-    --foreground: 0 0% 9%;
+    --foreground: 20 15% 15%;
 
-    --card: 0 0% 96%;
-    --card-foreground: 0 0% 9%;
+    --card: 350 30% 98%;
+    --card-foreground: 20 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 9%;
+    --popover-foreground: 20 15% 15%;
 
-    --primary: 0 0% 9%;
+    --primary: 20 15% 15%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 93%;
-    --secondary-foreground: 0 0% 9%;
+    --secondary: 350 20% 94%;
+    --secondary-foreground: 20 15% 15%;
 
-    --muted: 0 0% 90%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 350 15% 92%;
+    --muted-foreground: 20 10% 45%;
 
-    /* Purple accent color */
-    --accent: 270 50% 45%;
+    /* Rose-pink accent */
+    --accent: 340 65% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 88%;
-    --input: 0 0% 88%;
-    --ring: 270 50% 45%;
+    --border: 350 20% 88%;
+    --input: 350 20% 88%;
+    --ring: 340 65% 55%;
 
-    --radius: 0.625rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 270 50% 45%;
+    --sidebar-background: 350 20% 98%;
+    --sidebar-foreground: 20 15% 26%;
+    --sidebar-primary: 340 65% 55%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 0 0% 90%;
-    --sidebar-accent-foreground: 0 0% 9%;
-    --sidebar-border: 0 0% 88%;
-    --sidebar-ring: 270 50% 45%;
+    --sidebar-accent: 350 20% 92%;
+    --sidebar-accent-foreground: 20 15% 15%;
+    --sidebar-border: 350 20% 88%;
+    --sidebar-ring: 340 65% 55%;
   }
 
   .dark {
@@ -67,8 +67,8 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 50%;
 
-    /* Purple accent for dark mode */
-    --accent: 270 50% 55%;
+    /* Rose-pink accent for dark mode */
+    --accent: 340 65% 65%;
     --accent-foreground: 0 0% 7%;
 
     --destructive: 0 62.8% 30.6%;
@@ -96,7 +96,17 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Playfair Display", Georgia, serif;
   }
 }
 

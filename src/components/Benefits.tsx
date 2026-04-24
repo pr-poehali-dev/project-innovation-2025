@@ -1,34 +1,34 @@
 export function Benefits() {
-  const benefits = [
+  const courses = [
     {
-      icon: "👤",
-      title: "Персональное обучение",
-      description: "Индивидуальные сессии под ваш уровень и карьерные цели",
+      icon: "🎓",
+      title: "Мастер по проведению мастер-классов",
+      description: "Научитесь организовывать и проводить прибыльные МК — от сценария и материалов до продаж и работы с участниками",
     },
     {
-      icon: "⏰",
-      title: "Гибкое расписание",
-      description: "Занятия в удобное для вас время",
+      icon: "🍪",
+      title: "Печать на пряниках: от нуля до профи",
+      description: "Полный курс по пряничному делу: замес теста, выпечка, глазурь, роспись, упаковка и продажи готовых изделий",
     },
     {
-      icon: "💬",
-      title: "Обратная связь в реальном времени",
-      description: "Мгновенные рекомендации и корректировки на занятиях",
+      icon: "🎀",
+      title: "Кенди бар",
+      description: "Создавайте сладкие столы для праздников: стиль, декор, ассортимент, оформление и работа с заказчиками",
     },
     {
-      icon: "🚀",
-      title: "Карьерная поддержка",
-      description: "Помощь с резюме, подготовка к собеседованиям, трудоустройство",
+      icon: "💡",
+      title: "Практика с первого дня",
+      description: "Сразу работаем руками — минимум теории, максимум результата. Готовые изделия уже на первом занятии",
     },
     {
-      icon: "🛠️",
-      title: "Инструменты и ресурсы",
-      description: "Доступ к шаблонам, гайдам и профессиональным инструментам",
+      icon: "📱",
+      title: "Поддержка в чате",
+      description: "Закрытый чат выпускников, ответы на вопросы и помощь куратора после окончания курса",
     },
     {
-      icon: "📈",
-      title: "Бессрочный доступ",
-      description: "Поддержка и материалы даже после завершения обучения",
+      icon: "💼",
+      title: "Старт своего дела",
+      description: "Получите базу для монетизации: как продавать, как находить клиентов и сколько можно зарабатывать",
     },
   ]
 
@@ -36,21 +36,21 @@ export function Benefits() {
     <section id="benefits" className="bg-background py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-accent font-semibold text-sm uppercase tracking-wide">Почему мы</p>
+          <p className="text-accent font-semibold text-sm uppercase tracking-wide">Наши курсы</p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-            Все для вашего успеха
+            Всё, чтобы стать мастером
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Комплексное обучение для ускорения вашей карьеры виртуального ассистента
+            Три авторских программы для кондитеров и пряничных мастеров — выбери свой путь
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {benefits.map((benefit, index) => (
+          {courses.map((course, index) => (
             <div key={index} className="bg-card border border-border rounded-xl p-8 hover:shadow-lg transition">
-              <div className="text-4xl mb-4">{benefit.icon}</div>
-              <h3 className="text-xl font-semibold text-foreground mb-2">{benefit.title}</h3>
-              <p className="text-muted-foreground">{benefit.description}</p>
+              <div className="text-4xl mb-4">{course.icon}</div>
+              <h3 className="text-xl font-semibold text-foreground mb-2">{course.title}</h3>
+              <p className="text-muted-foreground">{course.description}</p>
             </div>
           ))}
         </div>
