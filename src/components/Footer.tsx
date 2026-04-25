@@ -8,9 +8,9 @@ export function Footer() {
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                 <span className="text-accent-foreground font-bold">🍪</span>
               </div>
-              <span className="font-semibold">Сладкая Академия</span>
+              <span className="font-semibold">Студия «Кукис»</span>
             </div>
-            <p className="text-sm text-background/70">Профессиональное обучение кондитерскому мастерству и росписи пряников.</p>
+            <p className="text-sm text-background/70">Елена Талалаева — 8 лет кондитерского мастерства, своя студия и сотни счастливых учениц.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
@@ -89,7 +89,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Сладкая Академия. Все права защищены.</p>
+          <p>&copy; 2025 Студия «Кукис» · Елена Талалаева. Все права защищены.</p>
         </div>
       </div>
     </footer>

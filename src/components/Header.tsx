@@ -13,7 +13,7 @@ export function Header() {
           <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
             <span className="text-accent-foreground font-bold text-lg">🍪</span>
           </div>
-          <span className="font-semibold text-foreground">Сладкая Академия</span>
+          <span className="font-semibold text-foreground">Студия «Кукис»</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition">
