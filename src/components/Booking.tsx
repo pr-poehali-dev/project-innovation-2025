@@ -22,7 +22,7 @@ export function Booking() {
             <div className="text-3xl mb-4">🎓</div>
             <h3 className="text-xl font-semibold text-foreground mb-2">Мастер по МК</h3>
             <p className="text-muted-foreground text-sm mb-6 flex-1">
-              Для тех, кто хочет творчества, но не умеет рисовать — учитесь зарабатывать на МК с печатью на пряниках
+              Научитесь проводить прибыльные МК с помощью техник, которые не требуют художественных навыков
             </p>
             <div className="space-y-2 text-sm text-muted-foreground mb-6">
               <p>✓ Сценарий и структура МК</p>
@@ -45,7 +45,7 @@ export function Booking() {
             <div className="text-3xl mb-4">🍪</div>
             <h3 className="text-xl font-semibold mb-2">Пряники: от нуля до профи</h3>
             <p className="text-accent-foreground/80 text-sm mb-6 flex-1">
-              Для тех, кто хочет творчества и заработка, даже без навыков рисования — через печать и мастер-классы
+              Полный путь от первого пряника до стабильных заказов — пошагово, с практикой и обратной связью
             </p>
             <div className="space-y-2 text-sm text-accent-foreground/90 mb-6">
               <p>✓ Рецептура и выпечка</p>
