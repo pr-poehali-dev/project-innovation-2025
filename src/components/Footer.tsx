@@ -5,9 +5,11 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold">🍪</span>
-              </div>
+              <img
+                src="https://cdn.poehali.dev/projects/3205edb8-5a8f-47ea-ba27-1b3ef424dbeb/bucket/0cce343c-79e9-461b-b704-684d7a59895d.png"
+                alt="Кукис"
+                className="h-10 w-10 object-contain brightness-0 invert"
+              />
               <span className="font-semibold">Студия «Кукис»</span>
             </div>
             <p className="text-sm text-background/70">Елена Талалаева — 8 лет кондитерского мастерства, своя студия и сотни счастливых учениц.</p>

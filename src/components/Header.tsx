@@ -10,9 +10,11 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-            <span className="text-accent-foreground font-bold text-lg">🍪</span>
-          </div>
+          <img
+            src="https://cdn.poehali.dev/projects/3205edb8-5a8f-47ea-ba27-1b3ef424dbeb/bucket/0cce343c-79e9-461b-b704-684d7a59895d.png"
+            alt="Кукис — Сладкая студия"
+            className="h-10 w-10 object-contain"
+          />
           <span className="font-semibold text-foreground">Студия «Кукис»</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
